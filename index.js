@@ -1,8 +1,9 @@
 const express = require('express');
 const APP = express();
 const PATH = require('path');
+const DB = express();
 
-APP.set('port', 3000);
+APP.set('port', 3001);
 
 APP.use(express.static(PATH.join(__dirname, 'app')));
 

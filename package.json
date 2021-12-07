@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon index.js"
+    "serve": "nodemon index.js",
+    "db" : "node src/config/dbConnection.js"
   },
   "keywords": [],
   "author": "",
